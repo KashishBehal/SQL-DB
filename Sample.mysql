@@ -1,0 +1,12 @@
+CREATE DATABASE login;
+USE login;
+CREATE TABLE details(
+Name VARCHAR(15) , 
+PhoneNo INT(10) , 
+EmailId VARCHAR(25)
+);
+INSERT INTO  details (Name , PhoneNo , EmailId ) VALUES
+("KHUSHI" , 484982938 ,  "khushi@gmail.com") ,
+("ROHAN" , 374794874 , "rohan@gmail.com")  ,
+("RAM" , 431694813 ,  "ram@gmail.com")  ,
+("SANYA" , 834793468 ,"sanya@gmail.com");
